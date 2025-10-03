@@ -1,0 +1,32 @@
+========================================
+MODEL EVALUATION REPORT
+========================================
+Accuracy: 0.9693
+Pathological Recall (False Negative Rate Focus): 0.9714
+Macro F1-Score: 0.9452
+
+Full Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.97      1.00      0.98       330
+     Suspect       0.96      0.81      0.88        59
+Pathological       0.97      0.97      0.97        35
+
+    accuracy                           0.97       424
+   macro avg       0.97      0.93      0.95       424
+weighted avg       0.97      0.97      0.97       424
+  
+Confusion Matrix:
+[[329   1   0]
+ [ 10  48   1]
+ [  0   1  34]]
+
+[6/6] Generating model explanations with SHAP...
+  Displaying SHAP summary plot for global feature importance...
+2025-10-02 08:27:38.999 Python[36580:7016906] +[IMKClient subclass]: chose IMKClient_Modern
+2025-10-02 08:27:38.999 Python[36580:7016906] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+2025-10-02 08:27:42.949 Python[36580:7016906] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+
+================================================================================
+PIPELINE COMPLETE!
+================================================================================

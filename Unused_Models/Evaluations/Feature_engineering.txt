@@ -1,0 +1,27 @@
+================================================================================
+FEATURE ENGINEERING RESULTS
+================================================================================
+                     Accuracy  F1_Macro  Pathological_Recall  Pathological_Precision
+Random Forest          0.9481    0.9149               0.9714                  0.9189
+Logistic Regression    0.8774    0.7872               0.8286                  0.6905
+
+================================================================================
+BEST MODEL: Random Forest
+================================================================================
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.97      0.97      0.97       330
+     Suspect       0.83      0.83      0.83        59
+Pathological       0.92      0.97      0.94        35
+
+    accuracy                           0.95       424
+   macro avg       0.91      0.92      0.91       424
+weighted avg       0.95      0.95      0.95       424
+
+
+Confusion Matrix:
+[[319   9   2]
+ [  9  49   1]
+ [  0   1  34]]

@@ -1,0 +1,20 @@
+# Core Data Science & ML Libraries
+numpy
+pandas
+scikit-learn
+joblib
+
+# Gradient Boosting Models
+lightgbm
+xgboost
+catboost
+
+# Model Interpretability
+shap
+
+# Hyperparameter Tuning
+optuna
+
+# Data Handling & Utilities
+imbalanced-learn
+openpyxl

@@ -1,0 +1,24 @@
+=== Superblend Results ===
+Best pathological threshold: 0.270
+Accuracy: 0.9693
+Macro F1: 0.9450
+Pathological Recall: 0.9714
+Pathological Precision: 0.9444
+
+Confusion Matrix [labels 1,2,3]:
+ [[323   7   0]
+ [  3  54   2]
+ [  0   1  34]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+      Normal       0.99      0.98      0.98       330
+     Suspect       0.87      0.92      0.89        59
+Pathological       0.94      0.97      0.96        35
+
+    accuracy                           0.97       424
+   macro avg       0.94      0.96      0.95       424
+weighted avg       0.97      0.97      0.97       424
+
+

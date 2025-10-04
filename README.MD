@@ -1,6 +1,6 @@
 # Datathon 2025: LIFELINE - CTG Analysis for Fetal Health
 
-**Team:** Ricard Josse Meyer, Charles Lukas Chairos Yo, Poon Wei Lok
+**Team:** Ricard Josse Meyer, Charles Lukas Chairos Yo, Poon Wei Lok\n
 **Team ID:** TM-37
 This repository contains the complete codebase and deliverables for our submission to the Datathon 2025 "Lifeline" competition. Our project focuses on developing a machine learning pipeline to classify fetal health status from Cardiotocography (CTG) data, with a strong emphasis on achieving both high performance and clinical interpretability.
 

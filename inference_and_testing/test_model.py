@@ -40,7 +40,7 @@ except ImportError:
 # ==============================================================================
 
 # Default model path (update as needed)
-DEFAULT_MODEL_PATH = '../final_model_artifacts/lgbm_hybrid_model_corrected.pkl'
+DEFAULT_MODEL_PATH = './final_model_artifacts/lgbm_hybrid_model_corrected.pkl'
 
 # Test cases representing different clinical scenarios
 TEST_CASES = {

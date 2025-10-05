@@ -99,8 +99,6 @@ To make predictions on your own CTG data:
 
 python inference_and_testing/inference.py --input path/to/your/data.csv --output predictions.csv
 
-text
-
 **Parameters:**
 - `--input`: Path to your input CSV file containing CTG features
 - `--output`: (Optional) Output file for predictions (default: predictions.csv)
@@ -122,8 +120,6 @@ The script generates a CSV with:
 Test with sample data
 python inference_and_testing/inference.py --input data/sample_ctg.csv --output results/my_predictions.csv
 
-text
-
 ### Troubleshooting
 **"Model not found" Error:** 
 Run commands from the project root directory (`Datathon_24_Deliverables/`), or navigate to the inference folder:
@@ -131,13 +127,9 @@ cd inference_and_testing
 python test_model.py
 cd ..
 
-text
-
 **Missing Dependencies:** 
 If you encounter xlrd errors for Excel file support:
 pip install xlrd>=2.0.1
-
-text
 
 ### Model Details
 - **Model Type**: Hybrid LightGBM with engineered features

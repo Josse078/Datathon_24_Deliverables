@@ -18,3 +18,4 @@ optuna
 # Data Handling & Utilities
 imbalanced-learn
 openpyxl
+xlrd>=2.0.1

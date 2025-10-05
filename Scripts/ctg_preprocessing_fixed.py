@@ -158,7 +158,7 @@ class CTGPreprocessor:
 if __name__ == "__main__":
     # --- Configuration ---
     # Standardized paths for a GitHub repository structure.
-    RAW_DATA_PATH = './data/raw/CTG.xls'
+    RAW_DATA_PATH = './data/CTG.xls'
     PREPROCESSED_OUTPUT_DIR = './data/preprocessed/'
 
     # --- Run Pipeline ---

@@ -458,7 +458,7 @@ def main():
     }
 
     # Load model and predict
-    predictor = load_predictor('../final_model_artifacts/lgbm_hybrid_model_corrected.pkl')
+    predictor = load_predictor('./final_model_artifacts/lgbm_hybrid_model_corrected.pkl')
     result = predictor.predict(sample_patient)
 
     # Display results

@@ -48,14 +48,14 @@ The following scripts should be run in order. They are designed to work with the
 This script cleans the raw `CTG.xls` file.
 
 ```
-python Deliverables/Scripts/ctg_preprocessing_fixed.py
+python Scripts/ctg_preprocessing_fixed.py
 ```
 
 **Step 2: Create the Engineered Feature Set**
 This script takes the cleaned data and generates the new, clinically-inspired features.
 
 ```
-python Deliverables/Scripts/create_engineered_test_set.py
+python Scripts/create_engineered_test_set.py
 ```
 
 **Step 3: Train and Evaluate All Models**
@@ -63,13 +63,13 @@ Run the training scripts for each of the three models discussed in our report.
 
 ```
 # Train our final "Hybrid Glass-Box" model
-python Deliverables/Scripts/corrected_hybrid.py
+python Scripts/corrected_hybrid.py
 
 # Train the "Feature-Engineered RF" baseline model
-python Deliverables/Unused_Models/Training_Script/train_feature_engineered.py
+python Unused_Models/Training_Script/train_feature_engineered.py
 
 # Train the "Superblend" black-box model
-python Deliverables/Unused_Models/Training_Script/train_superblend.py
+python Unused_Models/Training_Script/train_superblend.py
 ```
 
 After running these commands, all model artifacts and evaluation reports will be generated, fully reproducing the results presented in our academic report.

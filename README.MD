@@ -80,14 +80,10 @@ After running these commands, all model artifacts and evaluation reports will be
 Ensure all dependencies are installed:
 pip install -r requirements.txt
 
-text
-
 ### Quick Model Testing
 To validate that our trained model works correctly and see performance metrics:
 
 python inference_and_testing/test_model.py
-
-text
 
 This will:
 - Load the trained hybrid LightGBM model

@@ -27,7 +27,7 @@ We performed two levels of correlation analysis to understand feature relationsh
 
 ### 1. Overall Feature Correlation Matrix
 
-![Feature Correlation Matrix](Deliverables/results/eda/ctg_feature_correlation_matrix.png)
+![Feature Correlation Matrix](https://github.com/Josse078/Datathon_24_Deliverables/blob/main/results/plots/ctg_feature_correlation_matrix.png)
 
 This heatmap reveals the correlation structure among all 24 CTG features.
 

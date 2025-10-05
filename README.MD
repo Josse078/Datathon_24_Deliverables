@@ -33,8 +33,8 @@ First, clone this repository and install the required Python packages.
 
 ```
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Josse078/Datathon_24_Deliverables
+cd ./Datathon_24_Deliverables
 
 # Install dependencies
 pip install -r requirements.txt

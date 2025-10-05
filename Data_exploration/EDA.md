@@ -68,7 +68,7 @@ The strong correlation among histogram features (Mode, Mean, Median, Variance) s
 
 ### 2. Feature-to-Target Correlation Ranking
 
-![Feature-Target Correlation](https://github.com/Josse078/Datathon_24_Deliverables/blob/main/results/plots/ctg_target_correlation_ranking.png)
+![Feature-Target Correlation](https://github.com/Josse078/Datathon_24_Deliverables/blob/main/Data_exploration/ctg_target_correlation_ranking.png)
 
 This vertical heatmap ranks features by their correlation with NSP (fetal health status).
 

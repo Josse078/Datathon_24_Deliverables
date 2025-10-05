@@ -30,7 +30,7 @@ def generate_shap_summary():
     print("GENERATING SHAP SUMMARY PLOT FOR LIFELINE MODEL")
     print("="*80)
 
-    MODEL_PATH = './final_model_artifacts/lifeline_lgbm_model.pkl'
+    MODEL_PATH = './final_model_artifacts/lgbm_hybrid_model_corrected.pkl'
     ENGINEERED_TEST_DATA_PATH = './data/preprocessed/X_test_engineered.csv'
 
     # --- 1. Load Pre-trained Model ---

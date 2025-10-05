@@ -74,3 +74,72 @@ python Unused_Models/Training_Script/train_superblend.py
 
 After running these commands, all model artifacts and evaluation reports will be generated, fully reproducing the results presented in our academic report.
 ```
+## Testing & Model Inference
+
+### Prerequisites
+Ensure all dependencies are installed:
+pip install -r requirements.txt
+
+text
+
+### Quick Model Testing
+To validate that our trained model works correctly and see performance metrics:
+
+python inference_and_testing/test_model.py
+
+text
+
+This will:
+- Load the trained hybrid LightGBM model
+- Display model performance metrics (accuracy, precision, recall)
+- Show a sample prediction to confirm the model is functioning
+
+### Running Inference on New Data
+To make predictions on your own CTG data:
+
+python inference_and_testing/inference.py --input path/to/your/data.csv --output predictions.csv
+
+text
+
+**Parameters:**
+- `--input`: Path to your input CSV file containing CTG features
+- `--output`: (Optional) Output file for predictions (default: predictions.csv)
+
+**Required Input Format:**
+Your CSV should contain these CTG feature columns:
+- `LB`, `AC`, `FM`, `UC`, `DL`, `DS`, `DP`
+- `ASTV`, `MSTV`, `ALTV`, `MLTV` 
+- `Width`, `Min`, `Max`, `Nmax`, `Nzeros`
+- `Mode`, `Mean`, `Median`, `Variance`, `Tendency`
+
+**Output Format:**
+The script generates a CSV with:
+- All original features
+- `prediction`: Predicted class (Normal/Suspect/Pathological)  
+- `confidence_score`: Model confidence (0-1)
+
+### Example Usage
+Test with sample data
+python inference_and_testing/inference.py --input data/sample_ctg.csv --output results/my_predictions.csv
+
+text
+
+### Troubleshooting
+**"Model not found" Error:** 
+Run commands from the project root directory (`Datathon_24_Deliverables/`), or navigate to the inference folder:
+cd inference_and_testing
+python test_model.py
+cd ..
+
+text
+
+**Missing Dependencies:** 
+If you encounter xlrd errors for Excel file support:
+pip install xlrd>=2.0.1
+
+text
+
+### Model Details
+- **Model Type**: Hybrid LightGBM with engineered features
+- **Performance**: 96.9% accuracy, 97.1% recall on pathological cases
+- **Interpretability**: Full SHAP analysis available in results/

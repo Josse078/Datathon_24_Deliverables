@@ -406,7 +406,7 @@ class LifelinePredictor:
 # CONVENIENCE FUNCTIONS
 # ==============================================================================
 
-def load_predictor(model_path: str = 'models/lifeline_model.pkl') -> LifelinePredictor:
+def load_predictor(model_path: str = './final_model_artifacts/lgbm_hybrid_model_corrected.pkl') -> LifelinePredictor:
     """
     Convenience function to load predictor.
 

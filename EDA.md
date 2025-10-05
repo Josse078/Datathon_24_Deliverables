@@ -221,4 +221,4 @@ These insights shaped every subsequent modeling decision, resulting in the compe
 **For full methodology and results, see:**
 - [Main README](README.md) - Pipeline overview
 - [Academic Report](Datathon%201-Page%20Academic%20Report.pdf) - Complete analysis
-- [Training Script](Deliverables/Scripts/corrected_hybrid.py) - Implementation details
+- [Training Script](Dhttps://github.com/Josse078/Datathon_24_Deliverables/blob/main/Scripts/corrected_hybrid.py) - Implementation details

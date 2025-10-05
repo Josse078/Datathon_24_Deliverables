@@ -179,7 +179,7 @@ def main():
 
     # --- Save the model ---
     os.makedirs(MODEL_OUTPUT_DIR, exist_ok=True)
-    model_path = os.path.join(MODEL_OUTPUT_DIR, 'lifeline_lgbm_model.pkl')
+    model_path = os.path.join(MODEL_OUTPUT_DIR, 'lgbm_hybrid_model_corrected.pkl')
     joblib.dump(lgb_model, model_path)
     print(f"  ✓ Model artifact saved to: {model_path}")
 
